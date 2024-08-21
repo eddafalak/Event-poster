@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+.element-invisible {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip-path: rect(1px 1px 1px 1px);
+}
+
+/* Code for styling */
+html {
+  font-size: 1.1rem;
+  background: url('http://labs.jensimmons.com/2016/examples/images/Wynton-Marsalis.jpg') no-repeat;
+  background-position: right top;
+  background-size: cover;
+  font-family: Avenir, Helvetica, georgia, serif; 
+}
+
+body {
+  width: 90%;
+  margin: 3vh auto;
+}
+
+h1, h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.1rem;
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none; /*takes the dots from the list*/
+  padding: 10px;
+  border-radius: 4px;
+  background: #D4759F;
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #FFD274;
+}
+
+h4 {
+  margin:0;
+  font-size: 0.7em;
+  color: #fff;
+  background: #D4759F;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.6em;
+  color: #FFD274;
+}
+
+p {
+  margin: 0;
+  font-size: 0.6em;
+  color: white;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* Basic layout for non-grid supporting browsers*/
+
+li {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.ticketinfo {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  margin-bottom: 100px;
+p {
+  color: black;
+  margin-top: 5px;
+}
+}
